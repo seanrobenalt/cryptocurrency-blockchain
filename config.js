@@ -8,6 +8,6 @@ const GENESIS_DATA = {
   difficulty: INITIAL_DIFFICULTY,
   nonce: 0,
   data: []
-}
+};
 
-module.exports = { GENESIS_DATA, MINE_RATE }
+module.exports = { GENESIS_DATA, MINE_RATE };

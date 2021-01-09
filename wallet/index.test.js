@@ -177,7 +177,7 @@ describe('Wallet', () => {
             blockchain.addBlock({ data: [recentTransaction, sameBlockTransaction] });
 
             nextBlockTransaction = new Wallet().createTransaction({
-              receipient: wallet.publicKey,
+              recipient: wallet.publicKey,
               amount: 75
             });
 
